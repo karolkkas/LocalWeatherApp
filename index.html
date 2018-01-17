@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <title>The Local Weather App</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Exo+2:400,700" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/main.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="weather__container">
+        <div class="main pulseAnimation">
+            <div class="main__location">
+                <span class="main__city"></span>
+                <span class="main__country"></span>
+            </div>
+            <div class="main__temp">
+                <span class="main__temp--value"></span>
+                <a class="main__temp--unit"></a>
+            </div>
+            <div class="main__icon">&nbsp;</div>
+            <span class="main__description"></span>
+        </div>
+
+        <div class="sub">
+            <div class="sub__box">
+                <h3 class="sub__heading">Pressure</h3>
+                <span id="pressureValue" class="sub__value"></span>
+            </div>
+            <div class="sub__box">
+                <h3 class="sub__heading">Humidity</h3>
+                <span id="humidityValue" class="sub__value"></span>
+            </div>
+            <div class="sub__box">
+                <h3 class="sub__heading">Wind</h3>
+                <span id="windValue" class="sub__value"></span>
+            </div>
+            <div class="sub__box">
+                <h3 class="sub__heading">Clouds cover</h3>
+                <span id="cloudsValue" class="sub__value"></span>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
